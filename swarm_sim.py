@@ -76,7 +76,7 @@ def get_neighbors(lstAgent,key_agt):        #key_gt with whose respect to we hav
     for agt in lstAgent:
         if (agt.id != key_agt.id):
             dt_x = key_agt.x - agt.x
-            dt_y = agt.y - key_agt.y
+            dt_y = agt.y - key_agt.y. #Y increases downwards
 
 
             segment = int(math.degrees(math.atan2(dt_y,dt_x))/beamwidth)
